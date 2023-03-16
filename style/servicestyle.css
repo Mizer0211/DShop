@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    background: #fdd08b; /*#ffa723fa*/
+    /**background-image: url("foto/Background/test\ bg.jpg"); OR color #ff9900 **/
+    background-size: auto;
+    margin: 0;
+}
+
+.content {
+    width: auto;
+    height: auto;
+}
+
+/* HEADER STYLE START */
+
+.navmenu {
+    height: 60px;
+    background-color: #0f1c3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.flex-container space-between {
+    justify-content: space-between;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation:hover {
+    transition: 0.3s;
+    color: #ffa723fa;
+}
+
+/* HEADER STYLE END */
+
+.service {
+    position: absolute;
+    margin-top: 50px;
+    top: 25%;
+    left: 25%;
+    padding-bottom: 1.5%;
+    width: 1000px;
+    height: auto;
+    height: auto;
+    background-color: #0f1c3b;
+}
+
+h1, h3 {
+    color: #fdd08b;
+}
+
+.person-data {
+    margin:20px;
+}
+
+.person-email {
+    margin-top: 10px;
+}
+
+.person-data-input {
+    position: relative;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #0f1c3b;
+    background-color: #fdd08b;
+    filter: drop-shadow(0px 0px 1px #00133f);
+}
+
+.person-data > .person-data-label {
+    margin-right: 5px;
+}
+
+.person-email > .person-data-label {
+    margin-right: 3px;
+}
+
+.person-data-label {
+    position: relative;
+    color: #fdd08b;
+    pointer-events: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.about-problem {
+    width: 550px;
+    height: 150px;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fdd08b;
+    border: 1px solid #ffa723fa;
+    filter: drop-shadow(0px 0px 1px #fdd08b);
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown > p {
+    margin-left: 20px;
+    color:#fdd08b;
+}
+
+
+.choice-input {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ffa723fa;
+    background-color: #fdd08b;
+    text-align: center;
+}
+
+.write-about {
+    text-align: center;
+}
